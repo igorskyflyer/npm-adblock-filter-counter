@@ -1,7 +1,7 @@
 {
 	"name": "@igor.dvlpr/adblock-filter-counter",
 	"version": "1.0.0",
-	"description": "$2",
+	"description": "🐲  A dead simple npm module that counts Adblock filter rules.🦘",
 	"sideEffects": false,
 	"engines": {
 		"node": ">=16.0"
