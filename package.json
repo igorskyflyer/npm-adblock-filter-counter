@@ -23,7 +23,12 @@
 		"url": "git+https://github.com/igorskyflyer/npm-adblock-filter-counter.git"
 	},
 	"keywords": [
-		$4,
+		"adblock",
+		"adblocker",
+		"filter",
+		"rule",
+		"count",
+		"counter",
 		"igorskyflyer",
 		"igor.dvlpr"
 	],
