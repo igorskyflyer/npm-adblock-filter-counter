@@ -1,5 +1,5 @@
 import { assert, describe, test } from 'vitest'
-import { countFileRules, countRules } from '../dist/index.mjs'
+import { countFileRules, countRules } from '../src/index.mjs'
 
 const rules: string = `
 ! {@0.1} Block these subdomains
