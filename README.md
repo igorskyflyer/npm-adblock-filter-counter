@@ -1,5 +1,5 @@
 # adblock-filter-counter
-$2
+🐲  A dead simple npm module that counts Adblock filter rules.🦘
 
 <br>
 
