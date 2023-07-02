@@ -1,4 +1,4 @@
-# $1
+# adblock-filter-counter
 $2
 
 <br>
@@ -17,7 +17,7 @@ $2
 Install it by executing:
 
 ```shell
-npm i "@igor.dvlpr/$1"
+npm i "@igor.dvlpr/adblock-filter-counter"
 ```
 
 <br>
