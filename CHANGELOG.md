@@ -1,4 +1,4 @@
-## 🤹🏼‍♂️ Changelog
+## 📒 Changelog
 
 ### of [@igor.dvlpr/adblock-filter-counter](https://github.com/igorskyflyer/npm-adblock-filter-counter)
 
