@@ -4,11 +4,11 @@
 </div>
 
 <blockquote align="center">
-  Count filter rules in Adblock lists • Syntax‑agnostic and format‑flexible • Built for maintainers and testers • Fast, dependency‑free utility
+  Count filter rules in ad-block lists • Syntax‑agnostic and format‑flexible • Built for maintainers and testers • Fast, dependency‑free utility
 </blockquote>
 
 <h4 align="center">
-  🐲 A lightweight npm module for counting Adblock filter rules, ultra-simple, fast, and perfect for list maintainers, filter testers, and privacy tool developers.🦘
+  🐲 A lightweight npm module for counting ad-block filter rules, ultra-simple, fast, and perfect for list maintainers, filter testers, and privacy tool developers.🦘
 </h4>
 
 <br>
@@ -62,11 +62,11 @@ npm i @igorskyflyer/adblock-filter-counter
 countRules(rules: string): number
 ```
 
-Counts Adblock filter rules found in the provided string.
+Counts ad-block filter rules found in the provided string.
 
 <br>
 
-`rules` - The Adblock filter string to count rules in.
+`rules` - The ad-block filter string to count rules in.
 
 <br>
 
@@ -80,7 +80,7 @@ Throws a `TypeError` if no input is passed or if it's not a string.
 countFileRules(path: PathLike): number
 ```
 
-Counts Adblock filter rules found in the provided file.
+Counts ad-block filter rules found in the provided file.
 
 <br>
 
@@ -151,13 +151,13 @@ Licensed under the [**MIT license**](https://github.com/igorskyflyer/npm-adblock
 
 [**@igor.dvlpr/aria**](https://www.npmjs.com/package/@igor.dvlpr/aria)
 
-> _🧬 Meet Aria, an efficient Adblock filter list compiler, with many features that make your maintenance of Adblock filter lists a breeze! 🦖_
+> _🧬 Meet Aria, an efficient ad-block filter list compiler, with many features that make your maintenance of ad-block filter lists a breeze! 🦖_
 
 <br>
 
 [**@igor.dvlpr/adblock-header-extract**](https://www.npmjs.com/package/@igor.dvlpr/adblock-header-extract)
 
-> _✂️ An npm module that provides ways to extract header and metadata from an Adblock filter file. 📃_
+> _✂️ An npm module that provides ways to extract header and metadata from an ad-block filter file. 📃_
 
 <br>
 
