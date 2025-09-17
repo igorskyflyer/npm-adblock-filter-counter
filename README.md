@@ -35,7 +35,7 @@
 - 📁 Reads UTF-8 files with a single call  
 - 🧪 Type-safe - returns exact rule count as number  
 - 🚫 Throws clear errors for invalid input or missing files  
-- 🧵 Works with EasyList, AdVoid, and custom filters  
+- 🧵 Works with EasyList, [**AdVoid**](https://github.com/the-advoid/ad-void), and custom filters  
 - 🧩 Ideal for audits, benchmarks, and list hygiene  
 - 🐇 Fast - handles tens of thousands of rules in milliseconds  
 - 🔒 No network, no fetch, no async - pure local logic
