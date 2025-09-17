@@ -1,47 +1,60 @@
 {
-	"name": "@igor.dvlpr/adblock-filter-counter",
-	"version": "1.0.0",
-	"description": "🐲  A dead simple npm module that counts Adblock filter rules.🦘",
-	"sideEffects": false,
-	"engines": {
-		"node": ">=16.0"
-	},
-	"types": "./dist/index.d.mts",
-	"main": "./dist/index.mjs",
-	"module": "./dist/index.mjs",
-	"files": [
-		"dist"
-	],
-	"scripts": {
-		"build": "tsc",
-		"test": "vitest --run",
-		"debug": "vitest",
-		"pub": "npm test && npm run build && npm publish --access public"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/igorskyflyer/npm-adblock-filter-counter.git"
-	},
-	"keywords": [
-		"adblock",
-		"adblocker",
-		"filter",
-		"rule",
-		"count",
-		"counter",
-		"igorskyflyer",
-		"igor.dvlpr"
-	],
-	"author": "Igor Dimitrijević <igor.dvlpr@gmail.com> (https://github.com/igorskyflyer)",
-	"license": "MIT",
-	"funding": "https://ko-fi.com/igorskyflyer",
-	"bugs": {
-		"url": "https://github.com/igorskyflyer/npm-adblock-filter-counter/issues"
-	},
-	"homepage": "https://github.com/igorskyflyer/npm-adblock-filter-counter#readme",
-	"devDependencies": {
-		"@types/node": "^16.0.0",
-		"typescript": "^5.0.4",
-		"vitest": "^0.31.1"
-	}
+    "name": "@igorskyflyer/adblock-filter-counter",
+    "version": "1.1.0",
+    "description": "🐲 A lightweight npm module for counting ad-block filter rules, ultra-simple, fast, and perfect for list maintainers, filter testers, and privacy tool developers.🦘",
+    "sideEffects": false,
+    "engines": {
+        "node": ">=22.0"
+    },
+    "type": "module",
+    "types": "./dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "test": "vitest --run",
+        "pub": "pnpm test && git push origin main --tags"
+    },
+    "keywords": [
+        "adblock",
+        "blocklist",
+        "content-blocking",
+        "filter-parser",
+        "filter-rules",
+        "igor dimitrijević",
+        "igorskyflyer",
+        "javascript",
+        "lightweight",
+        "list-maintainer",
+        "npm-module",
+        "privacy-tools",
+        "rule-counter",
+        "typescript",
+        "ublock-origin"
+    ],
+    "license": "MIT",
+    "author": "Igor Dimitrijević <support@igorskyflyer.me> (https://github.com/igorskyflyer)",
+    "funding": "https://ko-fi.com/igorskyflyer",
+    "homepage": "https://github.com/igorskyflyer/npm-adblock-filter-counter",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/igorskyflyer/npm-adblock-filter-counter.git"
+    },
+    "bugs": {
+        "url": "https://github.com/igorskyflyer/npm-adblock-filter-counter/issues"
+    },
+    "devDependencies": {
+        "@biomejs/biome": "^2.2.4",
+        "@igorskyflyer/biome-config": "^2.1.0",
+        "@types/node": "^22.18.5",
+        "typescript": "^5.9.2",
+        "vitest": "^3.2.4"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "packageManager": "pnpm@10.17.0"
 }
