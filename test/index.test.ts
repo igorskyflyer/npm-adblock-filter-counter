@@ -27,4 +27,10 @@ describe('🧪 adblock-filter-counter tests 🧪', () => {
   test('#2 should return 1609', () => {
     assert.equal(countFileRules('./test/data/ads.txt'), 1609)
   }) // #2
+
+  test('#3 should throw', () => {
+    assert.throws(() => {
+      countFileRules('./no-file.txt')
+    })
+  }) // #3
 })
