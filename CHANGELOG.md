@@ -1,9 +1,17 @@
-## 📒 Changelog
+# 📒 Changelog
 
-### of [@igor.dvlpr/adblock-filter-counter](https://github.com/igorskyflyer/npm-adblock-filter-counter)
+### of [@igorskyflyer/adblock-filter-counter](https://github.com/igorskyflyer/npm-adblock-filter-counter)
 
 <br>
 
-## 1.0.0 - 03-Jul-2023
+## v1.1.0 (*17-Sep-2025*)
+
+- **💻 dev**: upgrade Node to >= v22
+- **💻 dev**: upgrade dependencies
+
+<br>
+<br>
+
+## 1.0.0 (*03-Jul-2023*)
 
 - initial release 🎉
