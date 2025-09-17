@@ -151,31 +151,31 @@ Licensed under the [**MIT license**](https://github.com/igorskyflyer/npm-adblock
 
 ## 🧬 Related
 
-[**@igor.dvlpr/aria**](https://www.npmjs.com/package/@igor.dvlpr/aria)
+[**@igorskyflyer/aria**](https://www.npmjs.com/package/@igorskyflyer/aria)
 
 > _🧬 Meet Aria, an efficient ad-block filter list compiler, with many features that make your maintenance of ad-block filter lists a breeze! 🦖_
 
 <br>
 
-[**@igor.dvlpr/adblock-header-extract**](https://www.npmjs.com/package/@igor.dvlpr/adblock-header-extract)
+[**@igorskyflyer/adblock-header-extract**](https://www.npmjs.com/package/@igorskyflyer/adblock-header-extract)
 
 > _✂️ An npm module that provides ways to extract header and metadata from an ad-block filter file. 📃_
 
 <br>
 
-[**@igor.dvlpr/strip-html**](https://www.npmjs.com/package/@igor.dvlpr/strip-html)
+[**@igorskyflyer/strip-html**](https://www.npmjs.com/package/@igorskyflyer/strip-html)
 
 > _🥞 Removes HTML code from the given string. Can even extract text-only from the given an HTML string. ✨_
 
 <br>
 
-[**@igor.dvlpr/astro-saferesource**](https://www.npmjs.com/package/@igor.dvlpr/astro-saferesource)
+[**@igorskyflyer/astro-saferesource**](https://www.npmjs.com/package/@igorskyflyer/astro-saferesource)
 
 > _🎐 Adds CSP-compliant inline scripts and styles to Astro! 🎠_
 
 <br>
 
-[**@igor.dvlpr/astro-easynav-button**](https://www.npmjs.com/package/@igor.dvlpr/astro-easynav-button)
+[**@igorskyflyer/astro-easynav-button**](https://www.npmjs.com/package/@igorskyflyer/astro-easynav-button)
 
 > _🧭 Add an easy-to-use navigational button (jump to top/bottom) to your Astro site. 🔼_
 
