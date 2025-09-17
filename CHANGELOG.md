@@ -6,6 +6,7 @@
 
 ## v1.1.0 (*17-Sep-2025*)
 
+- **💻 dev**: throw narrower Errors
 - **💻 dev**: upgrade Node to >= v22
 - **💻 dev**: upgrade dependencies
 
