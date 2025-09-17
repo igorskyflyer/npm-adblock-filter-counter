@@ -1,29 +1,62 @@
-# adblock-filter-counter
-
-🐲 A dead simple npm module that counts Adblock filter rules.🦘
-
-<br>
-
 <div align="center">
-<h3>💖 Support further development</h3>
-<a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="108"></a>
+  <img src="https://raw.githubusercontent.com/igorskyflyer/npm-adblock-filter-counter/main/media/adblock-filter-counter.png" alt="Ad-block Filter Counter icon for counting rules in EasyList and uBlock filter files" width="256" height="256">
+  <h1>Ad-block Filter Counter</h1>
 </div>
 
+<blockquote align="center">
+  Count filter rules in Adblock lists • Syntax‑agnostic and format‑flexible • Built for maintainers and testers • Fast, dependency‑free utility
+</blockquote>
+
+<h4 align="center">
+  🐲 A lightweight npm module for counting Adblock filter rules, ultra-simple, fast, and perfect for list maintainers, filter testers, and privacy tool developers.🦘
+</h4>
+
 <br>
+
+## 📃 Table of Contents
+
+- [**Features**](#-features)
+- [**Usage**](#-usage)
+- [**API**](#-api)
+- [**Examples**](#️-examples)
+- [**Changelog**](#-changelog)
+- [**Support**](#-support)
+- [**License**](#-license)
+- [**Related**](#-related)
+- [**Author**](#-author)
+
+<br>
+
+## 🤖 Features
+
+- 
+- 
+- 
+
 <br>
 <br>
 
-## 🕵🏼‍♂️ Usage
+## 🕵🏼 Usage
 
-Install it by executing:
+Install it by executing any of the following, depending on your preferred package manager:
 
-```shell
-npm i "@igor.dvlpr/adblock-filter-counter"
+```bash
+pnpm add @igorskyflyer/adblock-filter-counter
+```
+
+```bash
+yarn add @igorskyflyer/adblock-filter-counter
+```
+
+```bash
+npm i @igorskyflyer/adblock-filter-counter
 ```
 
 <br>
+<br>
 
-## 🤹🏼‍♂️ API
+## 🤹🏼 API
+
 
 ```ts
 countRules(rules: string): number
@@ -57,3 +90,96 @@ Counts Adblock filter rules found in the provided file.
 
 Returns the number of filter rules.
 Throws an `Error` if the given path cannot be found.
+
+<br>
+<br>
+
+## 🗒️ Examples
+
+`index.ts`
+```ts
+import { countFileRules, countRules } from '@igorskyflyer/adblock-filter-counter'
+
+const total: number = countFileRules('./easylist.txt')
+console.log(`EasyList contains ${total} rules.`) // EasyList contains 73800 rules.
+
+const raw: string = `
+||ads.example.com^
+||tracker.net^
+! this is a comment
+##.ad-banner
+`
+const count: number = countRules(raw)
+console.log(`Inline list contains ${count} rules.`) // Inline list contains 3 rules.
+```
+
+<br>
+<br>
+
+## 📝 Changelog
+
+📑 Read about the latest changes in the [**CHANGELOG**](https://github.com/igorskyflyer/npm-adblock-filter-counter/blob/main/CHANGELOG.md).
+
+<br>
+<br>
+
+## 🪪 License
+
+Licensed under the [**MIT license**](https://github.com/igorskyflyer/npm-adblock-filter-counter/blob/main/LICENSE).
+
+<br>
+<br>
+
+## 💖 Support
+
+<div align="center">
+  I work hard for every project, including this one and your support means a lot to me!
+  <br>
+  Consider buying me a coffee. ☕
+  <br>
+  <br>
+  <a href="https://ko-fi.com/igorskyflyer" target="_blank"><img src="https://raw.githubusercontent.com/igorskyflyer/igorskyflyer/main/assets/ko-fi.png" alt="Donate to igorskyflyer" width="180" height="46"></a>
+  <br>
+  <br>
+  <em>Thank you for supporting my efforts!</em> 🙏😊
+</div>
+
+<br>
+<br>
+
+## 🧬 Related
+
+[**@igor.dvlpr/aria**](https://www.npmjs.com/package/@igor.dvlpr/aria)
+
+> _🧬 Meet Aria, an efficient Adblock filter list compiler, with many features that make your maintenance of Adblock filter lists a breeze! 🦖_
+
+<br>
+
+[**@igor.dvlpr/adblock-header-extract**](https://www.npmjs.com/package/@igor.dvlpr/adblock-header-extract)
+
+> _✂️ An npm module that provides ways to extract header and metadata from an Adblock filter file. 📃_
+
+<br>
+
+[**@igor.dvlpr/strip-html**](https://www.npmjs.com/package/@igor.dvlpr/strip-html)
+
+> _🥞 Removes HTML code from the given string. Can even extract text-only from the given an HTML string. ✨_
+
+<br>
+
+[**@igor.dvlpr/astro-saferesource**](https://www.npmjs.com/package/@igor.dvlpr/astro-saferesource)
+
+> _🎐 Adds CSP-compliant inline scripts and styles to Astro! 🎠_
+
+<br>
+
+[**@igor.dvlpr/astro-easynav-button**](https://www.npmjs.com/package/@igor.dvlpr/astro-easynav-button)
+
+> _🧭 Add an easy-to-use navigational button (jump to top/bottom) to your Astro site. 🔼_
+
+<br>
+<br>
+<br>
+
+## 👨🏻‍💻 Author
+Created by **Igor Dimitrijević ([*@igorskyflyer*](https://github.com/igorskyflyer/))**.
