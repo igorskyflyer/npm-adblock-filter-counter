@@ -1636,4 +1636,3 @@
 ||crazyegg.com/log^
 ||translate.googleapis.com/element/log^
 ||samsung.com/stats^
-||samsung.com/stats^
