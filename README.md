@@ -79,7 +79,6 @@ Throws if the input is not a string.
 Returns the number of filter rules.
 
 <br>
-<br>
 
 ```ts
 countFileRules(path: PathLike): number
