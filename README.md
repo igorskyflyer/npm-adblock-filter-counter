@@ -29,9 +29,16 @@
 
 ## 🤖 Features
 
-- 
-- 
-- 
+- ⚡ Counts ad-block rules from strings or files instantly  
+- 🧠 Ignores comments and metadata for clean totals  
+- 🧼 Syntax-agnostic - no parser, no dependencies  
+- 📁 Reads UTF-8 files with a single call  
+- 🧪 Type-safe - returns exact rule count as number  
+- 🚫 Throws clear errors for invalid input or missing files  
+- 🧵 Works with EasyList, AdVoid, and custom filters  
+- 🧩 Ideal for audits, benchmarks, and list hygiene  
+- 🐇 Fast - handles tens of thousands of rules in milliseconds  
+- 🔒 No network, no fetch, no async - pure local logic
 
 <br>
 <br>
@@ -70,6 +77,10 @@ Counts ad-block filter rules found in the provided string.
 
 <br>
 
+Throws if the input is not a string.
+
+<br>
+
 Returns the number of filter rules.
 Throws a `TypeError` if no input is passed or if it's not a string.
 
@@ -88,8 +99,11 @@ Counts ad-block filter rules found in the provided file.
 
 <br>
 
+Throws if the file cannot be read or is not a valid UTF-8 string.
+
+<br>
+
 Returns the number of filter rules.
-Throws an `Error` if the given path cannot be found.
 
 <br>
 <br>
