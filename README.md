@@ -102,8 +102,8 @@ Returns the number of filter rules.
 ```ts
 import { countFileRules, countRules } from '@igorskyflyer/adblock-filter-counter'
 
-const total: number = countFileRules('./easylist.txt')
-console.log(`EasyList contains ${total} rules.`) // EasyList contains 73800 rules.
+const total: number = countFileRules('./AdVoid.Full.txt')
+console.log(`AdVoid.Full contains ${total} rules.`) // AdVoid.Full contains 7,916 rules.
 
 const raw: string = `
 ||ads.example.com^
