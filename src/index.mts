@@ -1,6 +1,6 @@
 // Copyright: Igor Dimitrijević (@igorskyflyer)
 
-import { PathLike, accessSync, readFileSync } from 'node:fs'
+import { type PathLike, readFileSync } from 'node:fs'
 
 const ignored: string[] = ['!', '[']
 
@@ -12,7 +12,9 @@ const ignored: string[] = ['!', '[']
  */
 export function countRules(rules: string): number {
   if (typeof rules !== 'string') {
-    throw new TypeError(`Expected a string for the input but got ${typeof rules}.`)
+    throw new TypeError(
+      `Expected a string for the input but got a ${typeof rules}.`
+    )
   }
 
   const lines: string[] = rules.split(/\r?\n/gm)
@@ -47,11 +49,9 @@ export function countRules(rules: string): number {
  */
 export function countFileRules(path: PathLike): number {
   try {
-    accessSync(path)
+    const rules: string = readFileSync(path, { encoding: 'utf-8' })
+    return countRules(rules)
   } catch {
     throw new Error('File could not be found.')
   }
-
-  const rules = readFileSync(path, { encoding: 'utf-8' })
-  return countRules(rules)
 }
