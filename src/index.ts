@@ -7,8 +7,8 @@ const ignored: string[] = ['!', '[']
 /**
  * Counts ad-block filter rules found in the provided string.
  * @param rules The ad-block filter string to count rules in.
- * @returns Returns the number of filter rules.
  * @throws {TypeError} If the input is not a string.
+ * @returns Returns the number of filter rules.
  */
 export function countRules(rules: string): number {
   if (typeof rules !== 'string') {
@@ -44,8 +44,8 @@ export function countRules(rules: string): number {
 /**
  * Counts ad-block filter rules found in the provided file.
  * @param path The path to the file that contains the filter rules to count.
- * @returns Returns the number of filter rules.
  * @throws {Error} If the file cannot be read or is not a valid UTF-8 string.
+ * @returns Returns the number of filter rules.
  */
 export function countFileRules(path: PathLike): number {
   try {
