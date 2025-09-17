@@ -5,8 +5,8 @@ import { type PathLike, readFileSync } from 'node:fs'
 const ignored: string[] = ['!', '[']
 
 /**
- * Counts Adblock filter rules found in the provided string.
- * @param rules The Adblock filter string to count rules in.
+ * Counts ad-block filter rules found in the provided string.
+ * @param rules The ad-block filter string to count rules in.
  * @returns Returns the number of filter rules.
  * @throws {TypeError}
  */
@@ -42,7 +42,7 @@ export function countRules(rules: string): number {
 }
 
 /**
- * Counts Adblock filter rules found in the provided file.
+ * Counts ad-block filter rules found in the provided file.
  * @param path The path to the file that contains the filter rules to count.
  * @returns Returns the number of filter rules.
  * @throws {Error}
