@@ -73,16 +73,10 @@ Counts ad-block filter rules found in the provided string.
 
 <br>
 
-`rules` - The ad-block filter string to count rules in.
+`rules` - The ad-block filter string to count rules in.  
 
-<br>
-
-Throws if the input is not a string.
-
-<br>
-
+Throws if the input is not a string.  
 Returns the number of filter rules.
-Throws a `TypeError` if no input is passed or if it's not a string.
 
 <br>
 <br>
@@ -95,14 +89,9 @@ Counts ad-block filter rules found in the provided file.
 
 <br>
 
-`path` - The path to the file that contains the filter rules to count.
+`path` - The path to the file that contains the filter rules to count.  
 
-<br>
-
-Throws if the file cannot be read or is not a valid UTF-8 string.
-
-<br>
-
+Throws if the file cannot be read or is not a valid UTF-8 string.  
 Returns the number of filter rules.
 
 <br>
